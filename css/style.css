@@ -332,7 +332,8 @@ a.goto-btn { margin-right: 30px ; border: #fff 1px solid; padding: 12px 18px; co
     height: 80px;
     transition: background-color 0.5s;
 }
-.service .media-left i.fa {
+.service .media-left i.fa,
+.service .media-left i.fas {
     text-align: center;
     font-size: 30px;
     background-color: #333333;
@@ -799,7 +800,9 @@ ul.cat li a.active {
 .work-related-thumb .img-thumbnail:hover { opacity: 0.8 }
 /* experience Section */
 #experience { padding: 60px 0 }
-.experience i.fa {
+.experience i.fa,
+.experience i.fas, 
+.experience i.fab {
     text-align: center;
     font-size: 30px;
     background-color: #333;
@@ -953,7 +956,10 @@ ul.metas li a { color: #38A5DB }
     text-align: center;
     margin: 0px 0;
 }
-.contact-detail i.fa {
+.contact-detail i.fa,
+.contact-detail i.fab,
+.contact-detail i.fas
+{
     text-align: center;
     font-size: 30px;
     background-color: #333;
@@ -1157,3 +1163,5 @@ ul.meta-tags li:last-child:after { content: ' ' }
 .comment form { margin-top: -30px }
 .comment input,
 .comment textarea { margin-bottom: 15px }
+
+
