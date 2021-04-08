@@ -21,7 +21,7 @@ h1 {
 h1 small { text-transform: lowercase }
 h2 {
     line-height: 24px;
-    font-weight: 300;
+    font-weight: bold;
 }
 h5 { font-size: 16px }
 p { font-size: 14px ;}
@@ -104,7 +104,7 @@ a:focus {
 #header .breadcrumb > li a { color: #ffffff }
 /* Home Style */
 #home {
-    background: url(../img/bg/01.jpg);
+    background: url(../img/webdev1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -363,7 +363,7 @@ h4.media-heading {
 }
 /* About Us */
 #about {
-    background: #38A5DB;
+    background: #333333;
     color:#fff;
     padding:80px 0;
 }
@@ -668,14 +668,14 @@ ul.cat li a.active {
     transform: translateX(0%)  translateY(0%);
     opacity: 1;
 }
-.box .hover-text i.fa.fa-chain {
+.box .hover-text i.fa.fa-link {
     border-top-left-radius: 0;
     -webkit-transform: translateX(400%) translateY(0%);
     transform: translateX(400%)  translateY(0%);
     opacity: 0;
     transition: all 0.5s;
 }
-.box:hover .hover-text i.fa.fa-chain {
+.box:hover .hover-text i.fa.fa-link {
     -webkit-transform: translateX(0%) translateY(0%);
     transform: translateX(0%)  translateY(0%);
     opacity: 1;
