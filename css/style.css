@@ -29,10 +29,9 @@ a {
     color: inherit;
     transition: all 0.5s;
 }
-a:hover,
-a:focus {
+a:hover, a:focus {
     text-decoration: none;
-    color: #ffcc33;
+    color: #c3073f;
 }
 .highlight { color: #38A5DB;}
 .clearfix:after {
@@ -49,7 +48,7 @@ a:focus {
 /* Navigation */
 #menu {
     margin-bottom: 0;
-    background-color: #38A5DB;
+    background-color: #1a1a1d;
     padding: 10px 0;
     height: auto;
     border: 0px;
@@ -104,7 +103,7 @@ a:focus {
 #header .breadcrumb > li a { color: #ffffff }
 /* Home Style */
 #home {
-    background: url(../img/webdev1.jpg);
+    background: url(../img/webdev1.webp);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -121,7 +120,7 @@ a:focus {
     padding: 20% 0;
     background-attachment: fixed;
 }
-#home h1 { color: #FFFFFF; line-height: 64px; font-size: 44px;}
+#home h1 { color: #fffff5; line-height: 64px; font-size: 44px;}
 .content-heading p.lead { margin-bottom: 80px ; color: #FFF;}
 a.goto-btn {
     font-size: 18px;
@@ -332,14 +331,13 @@ a.goto-btn { margin-right: 30px ; border: #fff 1px solid; padding: 12px 18px; co
     height: 80px;
     transition: background-color 0.5s;
 }
-.service .media-left i.fa,
-.service .media-left i.fas {
+.service .media-left i.fa, .service .media-left i.fas {
     text-align: center;
     font-size: 30px;
-    background-color: #333333;
+    background-color: #1a1a1d;
     color: #ffffff;
     padding: 25px 0;
-    border-radius: 0;
+    border-radius: 10px !important;
     border-top-right-radius: 0;
     margin: 0 10px;
     margin-left: 20px;
@@ -359,11 +357,11 @@ h4.media-heading {
     line-height: 20px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #FFF;
+    background-color: #c3073f;
 }
 /* About Us */
 #about {
-    background: #333333;
+    background: #1a1a1d;
     color:#fff;
     padding:80px 0;
 }
@@ -437,7 +435,7 @@ ul.social li a.fa:hover { background-color: #333333 }
     height: 12px;
     margin-bottom: 20px;
     overflow: hidden;
-    background-color: #8DD4F7;
+    background-color: transparent;
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -450,7 +448,7 @@ ul.social li a.fa:hover { background-color: #333333 }
     line-height: 20px;
     color: #fff;
     text-align: center;
-    background-color: #267CA5;
+    background-color: #c3073f;
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: width .6s ease;
@@ -473,7 +471,16 @@ ul.social li a.fa:hover { background-color: #333333 }
     margin-top: 50px;
 }
 .facts { padding: 0 ; margin-bottom: 8px;}
-.facts .count-box { position: relative ; background-color: rgba(1, 36, 53, 0.32); margin: 0 4px;}
+
+
+.facts .count-box {
+    position: relative;
+    background-color: #950740;
+    border-radius: 10px;
+    margin: 0 4px;
+}
+
+
 .count-box {
     -webkit-backface-visibility: hidden;
     padding: 30px 0;
@@ -514,7 +521,7 @@ ul.social li a.fa:hover { background-color: #333333 }
 .count-box:hover > i.fa { color: #ffffff }
 .count-box:hover {
     -webkit-backface-visibility: hidden;
-    background-color: #58BDEF;
+    background-color: #c3073f;
 }
 .counter i.fa {
     font-size: 40px;
@@ -613,16 +620,15 @@ ul.features li span.fa {
 ul.cat { margin: 30px 0 }
 ul.cat li a {
     background: inherit;
-    border: 1px solid #38A5DB;
+    border: 1px solid #c3073f;
     padding: 10px 16px;
+    border-radius: 2px;
 }
-ul.cat li a:hover,
-ul.cat li a:focus,
-ul.cat li a.active {
-    background: #38A5DB;
-    border: 1px solid #38A5DB;
+ul.cat li a:hover, ul.cat li a:focus, ul.cat li a.active {
+    background: #c3073f;
+    border: 1px solid #c3073f;
     padding: 10px 16px;
-    border-radius: 0;
+    border-radius: 2px;
     color: #fff;
 }
 .nopadding { padding: 0 }
@@ -646,11 +652,11 @@ ul.cat li a.active {
 }
 .box .hover-text i.fa {
     font-size: 20px;
-    background: #38A5DB;
+    background: #c3073f;
     padding: 13px;
     position: relative;
     top: 40%;
-    border-radius: 0;
+    border-radius: 10px !important;
     width: 45px;
     height: 45px;
     transition: all 0.5s;
@@ -800,12 +806,11 @@ ul.cat li a.active {
 .work-related-thumb .img-thumbnail:hover { opacity: 0.8 }
 /* experience Section */
 #experience { padding: 60px 0 }
-.experience i.fa,
-.experience i.fas, 
-.experience i.fab {
+.experience i.fa, .experience i.fas, .experience i.fab {
     text-align: center;
     font-size: 30px;
-    background-color: #333;
+    background-color: #1a1a1d;
+    border-radius: 10px !important;
     color: #ffffff;
     padding: 25px 0;
     border-top-left-radius: 0;
@@ -900,13 +905,13 @@ ul.cat li a.active {
     border-color: #ffcc33;
 }
 .color {
-    background-color: #38A5DB;
-    border-color: #38A5DB;
+    background-color: #c3073f;
+    border-radius: 10px !important;
+    border-color: #c3073f;
 }
-.color:focus,
-.color:hover {
+.color:focus, .color:hover {
     border-color: #333333;
-    background-color: #38A5DB;
+    background-color: #c3073f;
 }
 /* Blog Section */
 #blog,
@@ -956,16 +961,13 @@ ul.metas li a { color: #38A5DB }
     text-align: center;
     margin: 0px 0;
 }
-.contact-detail i.fa,
-.contact-detail i.fab,
-.contact-detail i.fas
-{
+.contact-detail i.fa, .contact-detail i.fab, .contact-detail i.fas {
     text-align: center;
     font-size: 30px;
-    background-color: #333;
-    color: #FFFFFF;
+    background-color: #1a1a1d;
+    border-radius: 10px !important;
+    color: #ffffff;
     padding: 25px 0;
-    border-radius: 0;
     border-top-left-radius: 0;
     margin: 0 10px;
     margin-right: 20px;
@@ -1029,7 +1031,7 @@ ul.social li a i {
     color: #ffffff;
     transition: all 0.5s;
 }
-ul.social li a i:hover { border-color: #ffffff }
+ul.social li a i:hover { border-color: #c3073f; }
 /* Blog Page */
 .blog .media.post {
     background: #fff;
@@ -1163,5 +1165,8 @@ ul.meta-tags li:last-child:after { content: ' ' }
 .comment form { margin-top: -30px }
 .comment input,
 .comment textarea { margin-bottom: 15px }
-
+img.intro-logo.img-responsive {
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
 
